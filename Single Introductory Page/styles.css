@@ -165,10 +165,6 @@ body {
         padding-right: 80px;
     
     }
-    /* .huddle-container .huddle-container-top img {
-        height: 493px;
-        width: 147px;
-    } */
     .huddle-container-middle {
         display: flex;
         flex-direction: row;
