@@ -1,0 +1,211 @@
+*, a, p{
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+h1 {
+    line-height: 48px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+body {
+    background-color: #674BAF;
+}
+
+/* mobile and small screen devices */
+.huddle-container{
+    background-image: url("./images/bg-mobile.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+}
+
+.huddle-container .huddle-container-top {
+    padding-top: 30px;
+}
+
+.huddle-container .huddle-container-top img {
+    height: 24px;
+    width: 147px;
+}
+
+.huddle-container-middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.huddle-container-middle .huddle-hero-image,
+.huddle-container-middle .huddle-hero-description {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.huddle-container-middle .huddle-hero-image {
+    margin-top: 66px
+}
+.huddle-container-middle .huddle-hero-image img {
+    height: 210px;
+    width: 297px;
+}
+
+.huddle-container-middle .huddle-hero-description {
+    margin-top: 20px;
+}
+
+.huddle-container-middle .main-heading h1,
+.huddle-container-middle .para-desc p{
+    text-align: center;
+}
+
+.huddle-container-middle .para-desc p {
+    margin-top: 15px;
+    width: 308px;
+}
+
+.huddle-container-middle .register-btn {
+    background-color: #ffffff;
+    border-color: transparent;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 40px;
+    height: 40px;
+}
+
+.huddle-container-middle .register-btn p {
+    font-size: 17px;
+    color:#674BAF
+}
+
+.huddle-container-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.huddle-container-bottom .facebook,
+.huddle-container-bottom .twitter,
+.huddle-container .instagram {
+    align-items: flex-end;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    height: 31px;
+    justify-content: center;
+    width: 32px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.huddle-container-bottom .facebook img,
+.huddle-container-bottom .twitter img{
+    height: 21px;
+    width: 25px;
+}
+
+.huddle-container-bottom .instagram img{
+    height: 18px;
+    width: 18px;
+}
+
+/* tablet potrait */
+@media screen and (min-width:768px) and (max-width:1024px){
+    h1 {
+        line-height: 60px;
+        font-size: 45px;
+        width: 505px;
+    }
+    .huddle-container{
+        background-image: url("./images/bg-desktop.png");
+        background-position: top ;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-left: 80px;
+        padding-right: 80px;
+    
+    }
+   
+    .huddle-container-middle .huddle-hero-image img {
+        height: 346px;
+        width: 448px;
+    }
+    .huddle-container-middle .huddle-hero-description {
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* tablet ladscape & desktop & larger screens */
+@media screen and (min-width: 1024px){
+    h1 {
+        line-height: 60px;
+        font-size: 45px;
+        width: 505px;
+    }
+    .huddle-container{
+        background-image: url("./images/bg-desktop.png");
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-left: 80px;
+        padding-right: 80px;
+    
+    }
+    /* .huddle-container .huddle-container-top img {
+        height: 493px;
+        width: 147px;
+    } */
+    .huddle-container-middle {
+        display: flex;
+        flex-direction: row;
+    }
+    .huddle-container-middle .huddle-hero-image img {
+        height: 493px;
+        width: 696px;
+    }
+
+    .huddle-container-middle .huddle-hero-description {
+        display: flex;
+        justify-content: center;
+        margin-left: 70px;
+        max-width: 526px;
+        flex-wrap: wrap;
+    }
+
+    .huddle-container-middle .main-heading h1,
+    .huddle-container-middle .para-desc p {
+        text-align: left;
+    }
+
+    .huddle-container-middle .para-desc p {
+        width: 526px;
+        font-size: 17px;
+    }
+
+    .huddle-container-middle .register-btn {
+        height: 60px;
+        border-radius: 30px;
+    }
+
+    .huddle-container-bottom {
+        justify-content: flex-end;
+        margin-top: 40px;
+        padding-right: 80px;
+    }
+
+
+}
