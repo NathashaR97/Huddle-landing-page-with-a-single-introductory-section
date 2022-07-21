@@ -2,7 +2,6 @@
 
 ## Welcome! 👋 Thanks for checking out thing Challenge
 
-[Figma file link] (https://www.figma.com/file/A4a79rJKPkpTNDpUK3s9D7/%F0%9F%94%B4-Single-Introductory-Page-%F0%9F%94%B4?node-id=2%3A225)
 [Frontend Metor Link] (https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
 
 Your challenge is to build out this Huddle landing page with a single introductory section and get it looking as close to the design as possible. Your users should be able to:
